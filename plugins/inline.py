@@ -39,7 +39,7 @@ def get_cmd(dur):
 @Client.on_inline_query()
 async def search(client, query):
     answers = []
-    if query.query == "":
+    if query.query == "S~senpai...":
         answers.append(
             InlineQueryResultArticle(
                 title="Click Me!",
