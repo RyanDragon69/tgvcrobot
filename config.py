@@ -44,11 +44,11 @@ class Config:
     LOG_GROUP=os.environ.get("LOG_GROUP", "")
 
     #Stream 
-    STREAM_URL=os.environ.get("STARTUP_STREAM", "https://www.youtube.com/watch?v=zcrUCvBD16k")
+    STREAM_URL=os.environ.get("STARTUP_STREAM", "https://youtu.be/5qap5aO4i9A")
    
     #Database
     DATABASE_URI=os.environ.get("DATABASE_URI", None)
-    DATABASE_NAME=os.environ.get("DATABASE_NAME", "VCPlayerBot")
+    DATABASE_NAME=os.environ.get("DATABASE_NAME", "tgvcbot")
 
 
     #heroku
